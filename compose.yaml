@@ -1,6 +1,6 @@
 services:
   gitea-action-runner:
-    image: gitea/act_runner:nightly
+    image: gitea/act_runner:nightly@sha256:55e32195d943d9bccc76061272ad5dd158330924d105ebd735b9d309ce23d5f4
     restart: always
     environment:
       GITEA_INSTANCE_URL: "${INSTANCE_URL}"
