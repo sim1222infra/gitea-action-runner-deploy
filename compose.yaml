@@ -11,3 +11,6 @@ services:
       - ./config.yaml:/config.yaml
       - ./data:/data
       - /var/run/docker.sock:/var/run/docker.sock
+networks:
+  default:
+    enable_ipv6: true
